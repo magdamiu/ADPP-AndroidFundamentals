@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidFundamentalsSeria2</string>
+    <string name="this_is_my_first_textview">This is my first TextView :)</string>
+    <string name="i_am_a_button">I am a button</string>
+    <string name="add_your_email_address">Add your email address</string>
+    <string name="i_accept_to_learn_android">I accept to learn Android :)</string>
+    <string name="notifications">Notifications</string>
+    <string name="this_is_a_searchview">This is a SearchView</string>
+    <string name="hello_from_java">Hello from Java code :)</string>
+    <string name="error_email_missing">Please add an email address</string>
+    <string name="hello_textview1">Hello TextView1 :)</string>
+    <string name="hello_textview2">Hello TextView2 :)</string>
+    <string name="hello_textview3">Hello TextView3 :)</string>
+    <string name="hello_textview4">Hello TextView4 :)</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="i_accept_terms_and_conditions">I accept Terms and Conditions</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/general_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/general_padding"
+        android:background="@color/colorAccent"
+        android:ellipsize="end"
+        android:padding="@dimen/general_margin"
+        android:text="@string/this_is_my_first_textview"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+    <!-- comment -->
+
+    <ImageView
+        android:id="@+id/image_view_android"
+        android:layout_width="wrap_content"
+        android:layout_height="120dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/android" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/general_padding"
+        android:onClick="btnHelloOnClick"
+        android:text="@string/i_am_a_button"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_margin="@dimen/general_margin"
+        android:background="@color/colorAccent"></View>
+
+    <EditText
+        android:drawableLeft="@android:drawable/ic_menu_info_details"
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_your_email_address"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/i_accept_to_learn_android" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yes" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="no" />
+    </RadioGroup>
+
+    <RatingBar
+        android:id="@+id/rating_bar_main"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.5" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/notifications" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="70" />
+
+    <SearchView
+        android:queryHint="@string/this_is_a_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/general_margin"/>
+</LinearLayout>
