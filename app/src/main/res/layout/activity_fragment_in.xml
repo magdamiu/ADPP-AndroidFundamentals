@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/general_padding"
+    tools:context=".week6.FragmentInActivity">
+
+  <!--  <fragment
+        android:id="@+id/hello_fragment"
+        android:name="com.magdamiu.androidfundamentalsseria2.week6.HelloFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></fragment> -->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

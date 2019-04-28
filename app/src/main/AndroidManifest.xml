@@ -11,19 +11,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week4.ConstraintLayoutActivity"></activity>
-        <activity android:name=".week4.RecyclerViewActivity">
+        <activity android:name=".week7.MaterialDesignActivity"></activity>
+        <activity android:name=".week6.LengthActivity" />
+        <activity android:name=".week6.SumActivity">
+        </activity>
+        <activity android:name=".week5.ForResultActivity2" />
+        <activity android:name=".week5.ForResultActivity1" />
+        <activity android:name=".week5.SecondActivity" />
+        <activity android:name=".week5.FirstActivity" />
+        <activity android:name=".week4.ConstraintLayoutActivity" />
+        <activity android:name=".week4.RecyclerViewActivity" />
+        <activity android:name=".week3.LoginActivity" />
+        <activity android:name=".week3.SpinnerActivity" />
+        <activity android:name=".week3.WebViewActivity" />
+        <activity android:name=".week3.ViewGroupsActivity" />
+        <activity android:name=".week5.DebugActivity"></activity>
+        <activity android:name=".week2.ViewExampleActivity"></activity>
+        <activity android:name=".week6.NavigationActivity"></activity>
+        <activity android:name=".week6.FragmentInActivity"></activity>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".week3.LoginActivity" />
-        <activity android:name=".week3.SpinnerActivity"></activity>
-        <activity android:name=".week3.WebViewActivity" />
-        <activity android:name=".week3.ViewGroupsActivity" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

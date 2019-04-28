@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week2OnClick"
+            android:text="@string/week_2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="weekLoginOnClick"
+            android:text="@string/week_3_login" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week3SpinnerOnClick"
+            android:text="@string/week_3_spinner" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week3ViewGroupOnClick"
+            android:text="@string/week_3_viewgroup" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week3WebViewOnClick"
+            android:text="@string/week_3_webview" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week4RecyclerViewOnClick"
+            android:text="@string/week_4_recyclerview" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week4ConstraintLayoutOnClick"
+            android:text="@string/week_4_constraintlayout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week5FirstActivityOnClick"
+            android:text="@string/week_5_first_activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week5FirstActivityForResultOnClick"
+            android:text="@string/week_5_first_activity_for_result" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week6FragmentInActivityOnClick"
+            android:text="@string/week_6_fragment_in_activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week6LengthActivityOnClick"
+            android:text="@string/week_6_length_activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week6SumActivityOnClick"
+            android:text="@string/week_6_sum_activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week6NavigationActivityOnClick"
+            android:text="@string/week_6_navigation_activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week7MaterialDesignOnClick"
+            android:text="@string/week_7_material_design" />
+    </LinearLayout>
+
+</ScrollView>
