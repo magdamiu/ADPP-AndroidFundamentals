@@ -84,6 +84,13 @@
             android:onClick="week6SumActivityOnClick"
             android:text="@string/week_6_sum_activity" />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week6TabsOnClick"
+            android:text="@string/week_6_tabs" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

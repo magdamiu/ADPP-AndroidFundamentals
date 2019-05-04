@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsseria2.week6;
+package com.magdamiu.androidfundamentalsseria2.week6.fragment;
 
 
 import android.os.Bundle;

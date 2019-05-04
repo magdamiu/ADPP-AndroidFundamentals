@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.magdamiu.androidfundamentalsseria2">
 
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week7.MaterialDesignActivity"></activity>
-        <activity android:name=".week6.LengthActivity" />
-        <activity android:name=".week6.SumActivity">
-        </activity>
+        <activity android:name=".week7.CameraActivity"></activity>
+        <activity android:name=".week7.MaterialDesignActivity" />
+        <activity android:name=".week6.fragment.LengthActivity" />
+        <activity android:name=".week6.fragment.SumActivity" />
         <activity android:name=".week5.ForResultActivity2" />
         <activity android:name=".week5.ForResultActivity1" />
         <activity android:name=".week5.SecondActivity" />
@@ -25,17 +29,32 @@
         <activity android:name=".week3.SpinnerActivity" />
         <activity android:name=".week3.WebViewActivity" />
         <activity android:name=".week3.ViewGroupsActivity" />
-        <activity android:name=".week5.DebugActivity"></activity>
-        <activity android:name=".week2.ViewExampleActivity"></activity>
-        <activity android:name=".week6.NavigationActivity"></activity>
-        <activity android:name=".week6.FragmentInActivity"></activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name=".week5.DebugActivity" />
+        <activity android:name=".week5.LifecycleActivity" />
+        <activity android:name=".week5.ImplicitIntentActivity" />
+        <activity android:name=".week2.ViewExampleActivity" />
+        <activity android:name=".week6.NavigationActivity" />
+        <activity android:name=".week6.fragment.FragmentInActivity" />
+        <activity android:name=".week6.tabs.TabsActivity" />
+        <activity android:name=".week7.PhotoGalleryActivity" />
+        <activity android:name=".week7.CollapsingToolbarActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:authorities="${applicationId}.provider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
     </application>
 
 </manifest>

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/general_padding"
-    tools:context=".week6.FragmentInActivity">
+    tools:context=".week6.fragment.FragmentInActivity">
 
   <!--  <fragment
         android:id="@+id/hello_fragment"
-        android:name="com.magdamiu.androidfundamentalsseria2.week6.HelloFragment"
+        android:name="com.magdamiu.androidfundamentalsseria2.week6.fragment.HelloFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></fragment> -->
 

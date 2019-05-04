@@ -1,10 +1,9 @@
-package com.magdamiu.androidfundamentalsseria2.week6;
+package com.magdamiu.androidfundamentalsseria2.week6.fragment;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.magdamiu.androidfundamentalsseria2.R;

@@ -1,5 +1,4 @@
-package com.magdamiu.androidfundamentalsseria2.week6;
-
+package com.magdamiu.androidfundamentalsseria2.week6.tabs;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,22 +8,17 @@ import android.view.ViewGroup;
 
 import com.magdamiu.androidfundamentalsseria2.R;
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class HelloFragment extends Fragment {
+public class TabFragment1 extends Fragment {
 
-
-    public HelloFragment() {
+    public TabFragment1() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hello, container, false);
+        // Inflate the layout for this fragment.
+        return inflater.inflate(R.layout.tab_fragment1, container, false);
     }
 
 }

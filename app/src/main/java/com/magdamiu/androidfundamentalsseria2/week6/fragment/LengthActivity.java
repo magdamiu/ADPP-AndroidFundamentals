@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsseria2.week6;
+package com.magdamiu.androidfundamentalsseria2.week6.fragment;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
