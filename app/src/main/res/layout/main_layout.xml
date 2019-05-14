@@ -102,6 +102,12 @@
             android:layout_height="wrap_content"
             android:onClick="week7MaterialDesignOnClick"
             android:text="@string/week_7_material_design" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="week8GithubAndRetrofiOnClick"
+            android:text="@string/retrofit_using_github_api" />
     </LinearLayout>
 
 </ScrollView>

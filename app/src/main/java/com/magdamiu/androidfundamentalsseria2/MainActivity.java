@@ -20,6 +20,8 @@ import com.magdamiu.androidfundamentalsseria2.week6.NavigationActivity;
 import com.magdamiu.androidfundamentalsseria2.week6.fragment.SumActivity;
 import com.magdamiu.androidfundamentalsseria2.week6.tabs.TabsActivity;
 import com.magdamiu.androidfundamentalsseria2.week7.MaterialDesignActivity;
+import com.magdamiu.androidfundamentalsseria2.week8.GithubActivity;
+import com.magdamiu.androidfundamentalsseria2.week8.GithubApi;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -93,5 +95,10 @@ public class MainActivity extends AppCompatActivity {
     // week 7
     public void week7MaterialDesignOnClick(View view) {
         startActivity(new Intent(MainActivity.this, MaterialDesignActivity.class));
+    }
+
+    // week 8
+    public void week8GithubAndRetrofiOnClick(View view) {
+        startActivity(new Intent(MainActivity.this, GithubActivity.class));
     }
 }
