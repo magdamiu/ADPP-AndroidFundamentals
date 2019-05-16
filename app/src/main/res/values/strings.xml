@@ -81,4 +81,6 @@
     <string name="get_image">Take Picture</string>
     <string name="take_a_picture">Take a picture</string>
     <string name="retrofit_using_github_api">Retrofit using Github API</string>
+    <string name="single_click">Single click</string>
+    <string name="long_click">Long click</string>
 </resources>

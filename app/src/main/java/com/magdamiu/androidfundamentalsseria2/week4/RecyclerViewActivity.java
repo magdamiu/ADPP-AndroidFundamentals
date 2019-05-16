@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Toast;
 
 import com.magdamiu.androidfundamentalsseria2.R;
 
@@ -24,6 +26,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         setLayoutManager();
         setCars();
         setAdapter();
+        setRecyclerViewListener();
     }
 
     private void setAdapter() {
@@ -39,6 +42,23 @@ public class RecyclerViewActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager =
                 new LinearLayoutManager(this);
         mRecyclerViewCars.setLayoutManager(layoutManager);
+    }
+
+    private void setRecyclerViewListener() {
+        mRecyclerViewCars.addOnItemTouchListener(new RecyclerTouchListener(this,
+                mRecyclerViewCars, new ContactClickListener() {
+            @Override
+            public void onClick(View view, final int position) {
+                Toast.makeText(RecyclerViewActivity.this, getString(R.string.single_click) + position,
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onLongClick(View view, int position) {
+                Toast.makeText(RecyclerViewActivity.this, getString(R.string.long_click) + position,
+                        Toast.LENGTH_LONG).show();
+            }
+        }));
     }
 
     private void setCars() {
