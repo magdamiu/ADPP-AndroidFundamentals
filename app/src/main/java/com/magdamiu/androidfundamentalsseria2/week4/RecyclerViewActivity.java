@@ -46,7 +46,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
     private void setRecyclerViewListener() {
         mRecyclerViewCars.addOnItemTouchListener(new RecyclerTouchListener(this,
-                mRecyclerViewCars, new ContactClickListener() {
+                mRecyclerViewCars, new CarClickListener() {
             @Override
             public void onClick(View view, final int position) {
                 Toast.makeText(RecyclerViewActivity.this, getString(R.string.single_click) + position,
