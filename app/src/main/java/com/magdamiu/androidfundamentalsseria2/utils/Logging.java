@@ -1,5 +1,3 @@
-package com.magdamiu.androidfundamentalsseria2.utils;
-
 import android.util.Log;
 
 import com.magdamiu.androidfundamentalsseria2.BuildConfig;
